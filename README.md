@@ -1,39 +1,33 @@
-
- ### Table of Contents 
+### Table of Contents 
  [Licensing](#licensing) | [Description](#description) | [Installation](#installation-intstructions) | [Usage](#usage) | [Contribution](#contribution) | [Tests](test-parameters) | [Contact](#contact)
 
-  ## Project 2: Movie Blog! 
+  ## Project 2: HW-18 Fitness Tracker! 
 
 
 ### Licensing
   This project is licensed under MIT, https://opensource.org/licenses/MIT
   
-  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the Software), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the Software), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so
   
 ### Description
-  Movie blog is designed for critics and film enthusiats alike. It brings the full functionality of a blog with the ability to customize your experience by setting preferences around what content you can see.
+For this homework, we were tasked with linking a Mongoose DB with an existing frontend and providing proper routing so that the app was functional. To complete this, I simply setup my local mongodb server, created internal navigation using index.html as the base, then created post,get, and put routes to pull data from mongo. 
 
 ### Installation Intstructions
   To ensure proper setup, please install the following packages: 
-  * mysql
-  * sequelize
-  * handlebars
-  * express
-  * express-session
-  *jsPDF
+  * Mongodb
    
-This project is dependent on a user-provided .env file. Please enter your DB Username, password, and db in use. 
-Check MySQL to link to database and start server. 
+ To install the entire project, simply download the .zip folder from github or pull directly from the repo. 
 
 
 ### Usage 
-  
+  N/A
   
 ### Contribution
-  Please request before attempting to contribute to movie blog.
+  Anyone is welcome to contribute to the fitness tracker.
+  
 ### Test Parameters
-  to test, run "node seeds", then "node server". 
+ There are no test suites associated with my project. Instead, run npm start to ensure that the server is live and functional on your device.
 ### Contact
-  Connect with us on Github @matthendrian, @eamahma, and @
+  Connect with me on Github @matthendrian!
   
  
