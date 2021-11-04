@@ -9,6 +9,11 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 
+
+//intentionally breaking this to test a fix. 
+
+//'mongodb+srv://matt:Arsenal12@merncluster.gkugt.mongodb.net/test'
+
 app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -16,7 +21,7 @@ app.use(express.static("public"));
 
 //connect our local envionrment to mongoose. 
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://localhost/workout',
+    process.env.MONGODB_URI || '',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
