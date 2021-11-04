@@ -21,7 +21,7 @@ app.use(express.static("public"));
 
 //connect our local envionrment to mongoose. 
 mongoose.connect(
-    process.env.MONGODB_URI || '',
+    process.env.MONGODB_URI || 'mongodb+srv://matt:Arsenal12@merncluster.gkugt.mongodb.net/test',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
