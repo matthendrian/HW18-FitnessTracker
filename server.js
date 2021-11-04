@@ -6,7 +6,8 @@ const app = express();
 //const router = express();
 
 //declaring the port we are using.
-const PORT = process.env.PORT || 3000;
+
+//const PORT = process.env.PORT || 3000;
 
 
 
@@ -34,6 +35,6 @@ mongoose.connect(
 app.use(require("./routes/api.js"));
 app.use(require("./routes/html.js"));
 
-app.listen(PORT, () => {
-    console.log(`App running on port ${PORT}!`);
-});
+// app.listen(PORT, () => {
+//     console.log(`App running on port ${PORT}!`);
+// });
